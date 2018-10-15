@@ -1,0 +1,118 @@
+html {
+    background: #401906;
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+    color: #401906;
+}
+
+body {
+    background-color: #7F320C;
+    width: 1000px;
+    padding: 50px;
+    margin: 10px auto;
+    border: 2px solid #000;
+}
+
+header {
+    margin: 0px auto;
+    height: 50px;
+    align-content: center;
+}
+
+nav {
+    align-content: center;
+    display: table;
+    margin: 0 auto;
+}
+
+nav li {
+    margin: auto;
+    display: inline-block;
+    /*    float: left;*/
+    list-style-type: none;
+    border: 3px solid #401906;
+    background: #BF4C11;
+}
+
+nav li a {
+    font-size: 2em;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav li a:link {
+    display: block;
+    color: #401906;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav li a:visited {
+    color: #401906;
+}
+
+nav li a:hover {
+    color: #E55B15;
+}
+
+nav li a:active {
+    color: #FF6517;
+}
+
+a:link {
+    color: #FF6517;
+    padding: 5px 10px;
+}
+
+a:visited {
+    color: #FF6517;
+}
+
+a:hover {
+    color: #E55B15;
+}
+
+a:active {
+    color: #401906;
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px #000;
+}
+
+.rounded-corners {
+    border-radius: 20%;
+}
+
+img {
+    float: right;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+section {
+    float: right;
+    text-align: left;
+    overflow: auto;
+}
+
+p {
+    float: left;
+}
+
+li {
+    float: inherit;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 1.15em;
+    background: #BF4C11;
+    border: 3px solid #401906;
+    position: relative;
+    width: 1000px;
+    bottom: 0;
+    margin: 10px auto;
+}
